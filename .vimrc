@@ -34,6 +34,9 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax enable
 
+" Disable auto comment on newline (return key and O);
+autocmd FileType * setlocal formatoptions-=ro
+
 " Colorscheme
 set background=dark
 colorscheme monokai256
