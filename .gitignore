@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except
+!.vimrc
+!.vim/
+!.vim/**
+!README.md
+!.gitignore
